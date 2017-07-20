@@ -311,7 +311,6 @@ int main(int, char**)
             }else if(350-minust<t&&t<400-minust){
                 t=0;
                 dirF=0;
-                /* サイコロを振る */
                 ansdirF = rand() % 4 + 1;
                 
                 //ansdirF=2;
