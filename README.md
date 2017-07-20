@@ -18,5 +18,6 @@ Xcodeでの実行の仕方
 6./usr/local/Cellar/opencv3/3.2.0/share/OpenCV/haarcascadesからhaarcascade_eye_tree_eyeglasses.xmlとhaarcascade_frontalface_alt.xmlを取得。
 7./Users/masayuki/Library/Developer/Xcode/DerivedData/LookThisWay-frwmckpoynvsptffarooxqrxgvwo/Build/Products/Debug
 に分類器(haarcascade_eye_tree_eyeglasses.xmlとhaarcascade_frontalface_alt.xml)をコピペなどで配置。
-8.実行！
-(9.動かなかったらTwitter:@mogamusa31にリプ下さい）
+8.main.cppをgithub上のmain.cppと置換。
+9.実行！
+(10.動かなかったらTwitter:@mogamusa31にリプ下さい）
