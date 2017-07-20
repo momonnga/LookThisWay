@@ -31,3 +31,7 @@ Xcodeでの実行の仕方
 
 9.実行！
 (10.動かなかったらTwitter:@mogamusa31にリプ下さい）
+
+参考にさせて頂いたサイト
+顔認識：http://docs.opencv.org/3.0-beta/doc/tutorials/objdetect/cascade_classifier/cascade_classifier.html
+OpticalFlow：http://funvision.blogspot.jp/2016/02/opencv-31-tutorial-optical-flow.html
