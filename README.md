@@ -11,13 +11,21 @@
 
 Xcodeでの実行の仕方
 1.Create a new Xcode projectでプロジェクトを作成。
+
 2.macOS->Command Line Toolを選択し、Nextを選択。
+
 3.適当にProject名を記入し、プロジェクトを作成。
+
 4.プロジェクト名のファイルを選択し、BuildSetting->SearchPaths->Header Search PathsにOpenCVのincludeまでのパスを入力（例：/usr/local/Cellar/opencv3/3.2.0/include）し、non-recursiveからrecursiveに変更。
+
 5.次にBuildSettingからBuildPhasesのタブに切り替え、LinkBinaryWithLibrariesにOPENCVのlib内のdylib(例：/usr/local/Cellar/opencv3/3.2.0/libの〜〜〜〜.dylib）を全てドラッグアンドドロップ。
+
 6./usr/local/Cellar/opencv3/3.2.0/share/OpenCV/haarcascadesからhaarcascade_eye_tree_eyeglasses.xmlとhaarcascade_frontalface_alt.xmlを取得。
+
 7./Users/masayuki/Library/Developer/Xcode/DerivedData/LookThisWay-frwmckpoynvsptffarooxqrxgvwo/Build/Products/Debug
 に分類器(haarcascade_eye_tree_eyeglasses.xmlとhaarcascade_frontalface_alt.xml)をコピペなどで配置。
+
 8.main.cppをgithub上のmain.cppと置換。
+
 9.実行！
 (10.動かなかったらTwitter:@mogamusa31にリプ下さい）
