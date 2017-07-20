@@ -6,9 +6,12 @@
 実行環境
 
 実行OS：macOS Sierra 10.12.5
+
 開発環境：XCode Version 8.3.3
+
 使用言語：C,C++
-使用ライブラリ：OPENCV
+
+使用ライブラリ：OPENCV3.2
 
 Xcodeでの実行の仕方
 
